@@ -1,0 +1,47 @@
+POST http://localhost:3001/api/v1/auth/login
+content-type: application/json
+
+{
+    "email":"tobidaramola77@gmail.com",
+    "password":"12345678"
+
+}
+
+# PUT http://localhost:3001/api/v1/user/1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTYyNTE2MTIsImV4cCI6MTY5NjI1NTIxMiwiYXVkIjoiMSJ9.NPg3eJ6zgDfD4DNhdNlcLkQgO2N73iS7LysInvwI-M8
+# Content-Type: application/json
+
+# {
+#     "email":"tobidaramola77@gmail.com",
+#     "fullname":"Tobi Daramola",
+#     "phone":"+2348106170405",
+#     "address":"London"
+
+# }
+
+
+# GET http://localhost:3001/api/v1/user/1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTcwMDEwMzYsImV4cCI6MTY5NzA4NzQzNiwiYXVkIjoiMSJ9.0qoDOylwxjWoVAkxklViIczpXeAMYQni4-T-DXx5FJU
+
+
+# POST http://localhost:3001/api/v1/auth/refresh-token
+# Content-Type: application/json
+
+
+# {
+#     "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTcwMDEwMzYsImV4cCI6MTcyODU1ODYzNiwiYXVkIjoiMSJ9.tY9EOmrwV8ZxzCg-S8QQafYUiOPFGPjNIbrHw-xKNDk"
+
+# }
+
+//logout
+# DELETE http://localhost:3001/api/v1/auth/logout
+# Content-Type: application/json
+
+
+# {
+#     "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTcwMDQxMDksImV4cCI6MTcyODU2MTcwOSwiYXVkIjoiMSJ9.CnCFH58gP5wkvp0WXeUjYi6obrfdkyuRA8QxkDgD9aU"
+# }
+
+
+
+
